@@ -15,7 +15,7 @@ app = Flask(__name__)
 model = pickle.load(open('New_XGBoost_model.pkl','rb'))
 
 
-@app.route('/')
+@app.route('https://github.com/AskGit007/AQI-Deployment-New/tree/master/Templates')
 def home():
     #return 'Hello World'
     return render_template('home.html')
